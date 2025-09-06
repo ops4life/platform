@@ -45,7 +45,7 @@ export default function Layout({ children, currentPageName }) {
             `}>
                 <div className="flex items-center gap-3 mb-6 lg:mb-10 p-2 border-b-4 border-black">
                     <Bot className="w-8 h-8 lg:w-10 lg:h-10"/>
-                    <h1 className="text-xl lg:text-2xl font-bold tracking-tighter">OpsBrute</h1>
+                    <h1 className="text-xl lg:text-2xl font-bold tracking-tighter">Ops4Life</h1>
                 </div>
                 <nav className="flex flex-col gap-2">
                     {navItems.map((item) => (
