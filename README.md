@@ -1,12 +1,21 @@
 # Ops4Life Platform
 
-A modern operations platform built with Next.js for monitoring services, managing incidents, and accessing runbooks.
+A comprehensive operations platform designed specifically for **DevOps Engineers**, **Site Reliability Engineers (SRE)**, and **Platform Engineers**. Built with Next.js, this platform provides essential tools for monitoring services, managing incidents, and accessing runbooks to streamline operational workflows and improve system reliability.
 
 ## Features
 
-- **Dashboard**: Real-time service status monitoring
-- **Incidents**: Incident management and tracking
-- **Runbooks**: Documentation and troubleshooting guides
+- **Dashboard**: Real-time service status monitoring and health metrics for infrastructure oversight
+- **Incidents**: Comprehensive incident management and tracking with SRE best practices
+- **Runbooks**: Centralized documentation and troubleshooting guides for operational procedures
+
+## Target Audience
+
+This platform is specifically designed for:
+
+- **DevOps Engineers**: Streamline deployment pipelines and infrastructure management
+- **Site Reliability Engineers (SRE)**: Monitor system health, manage incidents, and maintain service reliability
+- **Platform Engineers**: Build and maintain internal platforms and developer tools
+- **Operations Teams**: Centralize monitoring, incident response, and operational knowledge
 
 ## Tech Stack
 
@@ -82,9 +91,17 @@ platform/
 └── utils/              # Utility functions
 ```
 
-## Mock Data
+## Integration & Production Setup
 
-The application currently uses mock data for demonstration purposes. In a production environment, you would replace the entity classes with actual API calls to your backend services.
+The application currently uses mock data for demonstration purposes. In a production environment, you would integrate with:
+
+- **Monitoring Systems**: Prometheus, Grafana, DataDog, New Relic
+- **Incident Management**: PagerDuty, Opsgenie, Jira Service Management
+- **Documentation**: Confluence, Notion, GitBook
+- **CI/CD Platforms**: GitHub Actions, GitLab CI, Jenkins
+- **Infrastructure**: Kubernetes, Docker, Terraform, CloudFormation
+
+Replace the entity classes with actual API calls to your backend services and monitoring tools.
 
 ## Contributing
 
