@@ -19,12 +19,12 @@ export default function Layout({ children, currentPageName }) {
 
             {/* Sidebar */}
             <aside className="w-64 bg-white border-r-4 border-black flex flex-col p-4">
-                <div className="flex items-center gap-3 mb-6 lg:mb-10 p-2 border-b-4 border-black">
+                <div className="flex items-center gap-3 mb-12 lg:mb-16 p-2 pt-4 border-b-4 border-black">
 
                     <Bot className="w-8 h-8 lg:w-10 lg:h-10"/>
                     <h1 className="text-xl lg:text-2xl font-bold tracking-tighter">Ops4Life</h1>
                 </div>
-                <nav className="flex flex-col gap-2">
+                <nav className="flex flex-col gap-4">
                     {navItems.map((item) => (
                         <Link
                             key={item.title}
@@ -47,10 +47,10 @@ export default function Layout({ children, currentPageName }) {
 
             {/* Main Content */}
             <main className="flex-1 flex flex-col lg:ml-0">
-                <header className="bg-white border-b-4 border-black px-4 lg:px-8 py-4">
+                <header className="bg-white border-b-4 border-black px-4 lg:px-8 py-2">
                     <h2 className="text-2xl lg:text-3xl font-bold uppercase tracking-wider">{currentPageName}</h2>
                 </header>
-                <div className="flex-1 p-4 lg:p-8 overflow-auto">
+                <div className="flex-1 p-4 lg:p-8 pt-8 lg:pt-12 overflow-auto">
                     {children}
                 </div>
             </main>
