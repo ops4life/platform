@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+# 1.0.0 (2025-09-06)
+
+
+### Features
+
+* Update .gitignore and README.md for improved project structure and clarity. Enhanced .gitignore to include additional files and directories for Next.js, testing, and local environment. Revised README.md to reflect project purpose, features, tech stack, and local development instructions. ([3303a56](https://github.com/ops4life/platform/commit/3303a5682081d04cd9e6591bbf3ade79cc242e21))
+
 ## [1.12.1](https://github.com/duyluann/github-repo-template/compare/v1.12.0...v1.12.1) (2025-08-13)
 
 
