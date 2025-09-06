@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+# [1.1.0](https://github.com/ops4life/platform/compare/v1.0.0...v1.1.0) (2025-09-06)
+
+
+### Features
+
+* Enhance layout and components for improved mobile responsiveness and UI consistency. Added mobile menu functionality, adjusted padding and font sizes across various components, and implemented responsive utility classes in CSS for better adaptability on different screen sizes. ([4422fdb](https://github.com/ops4life/platform/commit/4422fdb18a8bf30730e83981e6478b869a9c0a06))
+
 # 1.0.0 (2025-09-06)
 
 
