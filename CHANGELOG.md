@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.1](https://github.com/ops4life/platform/compare/v1.1.0...v1.1.1) (2025-09-06)
+
+
+### Bug Fixes
+
+* Update application title from 'OpsBrute' to 'Ops4Life' in layout component for branding consistency. ([d1cc7aa](https://github.com/ops4life/platform/commit/d1cc7aa1c50927b4488745a2297591bca0c7424a))
+
 # [1.1.0](https://github.com/ops4life/platform/compare/v1.0.0...v1.1.0) (2025-09-06)
 
 
