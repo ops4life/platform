@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.2](https://github.com/ops4life/platform/compare/v1.1.1...v1.1.2) (2025-09-06)
+
+
+### Bug Fixes
+
+* Add missing margin to the layout component header for improved spacing and visual consistency. ([da6ff6c](https://github.com/ops4life/platform/commit/da6ff6c5be150f548703820c59a01bc4512538b4))
+
 ## [1.1.1](https://github.com/ops4life/platform/compare/v1.1.0...v1.1.1) (2025-09-06)
 
 
