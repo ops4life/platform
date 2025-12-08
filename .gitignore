@@ -1,35 +1,95 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# More .gitignore templates: https://github.com/github/gitignore
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
+# General
+*.log
+*.tmp
+*.swp
+*.bak
+*.cache
+*~
 
-# testing
-/coverage
-
-# next.js
-/.next/
-/out/
-
-# production
-/build
-
-# misc
+# OS-specific
 .DS_Store
-*.pem
+.AppleDouble
+.LSOverride
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
 
-# debug
+# IDE files
+.idea/*
+.vscode/launch.json
+.vscode/tasks.json
+.vscode/.ropeproject
+sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+.venv/
+venv/
+ENV/
+env/
+*.egg
+
+# Node.js
+node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+.npm
+.eslintcache
 
-# local env files
-.env*.local
+# Package managers
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
 
-# vercel
-.vercel
+# Testing
+coverage/*
+*.cover
+.hypothesis/
 
-# typescript
-*.tsbuildinfo
-next-env.d.ts
+# Build output
+build/*
+dist/
+*.min.js
+*.min.css
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+*.env
+
+# Personal files
+README.personal.md
+notes.md
+TODO.personal.md
+
+# Gitleaks reports
+gitleaks-report.json
+gitleaks-report.txt
+
+# Pre-commit cache
+.pre-commit-cache/
+
+# Temporary files
+*.swp
+*.swo
+*~.nib
+.lock-wscript
